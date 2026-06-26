@@ -85,7 +85,8 @@ Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height
 ---
 
 ## Reports
-[View Full Insight Report](report/Online Retail Insight Report.pdf)
+[View Full Insight Report]([Online Retail Insight Report.pdf](https://github.com/user-attachments/files/29383105/Online.Retail.Insight.Report.pdf)
+)
 
 ---
 
