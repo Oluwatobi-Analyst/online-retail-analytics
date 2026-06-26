@@ -95,6 +95,8 @@ Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height
 
 > Full analysis available in the [Insight Report](https://drive.google.com/file/d/1nnNDjVHmTSMBS2glUFaNW1-498tnHrH6/view?usp=drive_link)
 
+---
+
 ## AOV Methodology Note
 
 Average Order Value was calculated as:
