@@ -82,6 +82,7 @@ The raw dataset required significant cleaning before analysis:
 
 Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
 
+Online Retail Sales & Customer Value Analytics Dashboard (dashboard/Dashboard.png)
 ---
 
 ## Reports
