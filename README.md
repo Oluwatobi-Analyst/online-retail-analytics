@@ -82,13 +82,18 @@ The raw dataset required significant cleaning before analysis:
 
 Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
 
-[Online Retail Sales & Customer Value Analytics Dashboard ](dashboard/Dashboard.png)
 ---
 
-## Reports
-[View Full Insight Report](https://drive.google.com/file/d/1nnNDjVHmTSMBS2glUFaNW1-498tnHrH6/view?usp=drive_link)
+## Key Insights
+| # | Insight |
+|---|---|
+| 1 | Returns rate of 4.64% is low — business retains 95.36% of gross revenue |
+| 2 | Strong Q4 seasonality — revenue peaks at £1.50M in November |
+| 3 | International markets split into high-volume (Netherlands, EIRE) and high-value (Singapore, Japan) profiles |
+| 4 | Top 2 customers contribute 5.53% of net revenue — dangerous concentration risk |
+| 5 | Paper Craft Little Birdie ranked 2nd by revenue but generated effectively £0 net — single bulk order fully returned |
 
----
+> Full analysis available in the [Insight Report](https://drive.google.com/file/d/1nnNDjVHmTSMBS2glUFaNW1-498tnHrH6/view?usp=drive_link)
 
 ## AOV Methodology Note
 
@@ -108,7 +113,7 @@ $$\text{AOV} = \frac{\text{Net Product Revenue}}{\text{Number of Distinct Purcha
 
 **Odusanya Oluwatobi**  
 Aspiring Data Analyst  
-[LinkedIn Profile URL](https://www.linkedin.com/in/oluwatobi-odusanya-6b339834a/) | [GitHub Profile URL](https://github.com/Oluwatobi-Analyst)
+[LinkedIn Profile](https://www.linkedin.com/in/oluwatobi-odusanya-6b339834a/) | [GitHub Profile](https://github.com/Oluwatobi-Analyst)
 
 ---
 
