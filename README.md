@@ -29,7 +29,7 @@ The project covers the full analytics workflow: raw data ingestion, cleaning, ex
 |---|---|
 | Python (pandas, numpy) | Data cleaning, transformation, EDA |
 | Jupyter Notebook | Exploratory analysis and documentation |
-| Power BI | Interactive dashboard and visualizations |
+| Power BI | Dashboard, KPI calculations and customer segmentation |
 
 ---
 
@@ -67,12 +67,14 @@ The project covers the full analytics workflow: raw data ingestion, cleaning, ex
 
 The raw dataset required significant cleaning before analysis:
 
-- Removed operational/non-product stock codes (POST, DOT, C2, M, BANK CHARGES, CRUK, AMAZONFEE, etc.)
-- Separated cancellation invoices (InvoiceNo starting with "C") from genuine purchases
-- Handled missing CustomerID values
-- Removed rows with negative or zero unit prices
-- Derived a `Revenue` column as `Quantity × UnitPrice`
-- Classified customers as repeat vs. one-time buyers based on invoice frequency
+- Standardised and stripped whitespace across all text columns
+- Retained missing CustomerIDs (filled with 0) as guest transactions
+- Converted InvoiceDate to datetime and created a YearMonth column
+- Removed duplicate rows
+- Derived `Revenue` column (`Quantity` × `UnitPrice`)
+- Filtered out non-product stock codes (POST, DOT, BANK CHARGES etc.) in Power BI
+- Separated cancellation invoices from genuine purchases
+- Classified customers as repeat vs. one-time buyers using Power BI DAX measures
 
 ---
 
@@ -80,6 +82,10 @@ The raw dataset required significant cleaning before analysis:
 
 ![Online Retail Sales & Customer Value Analytics Dashboard]<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
 
+---
+
+## Reports
+[View Full Insight Report](report/Online_Retail_Insight_Report.docx)
 
 ---
 
@@ -97,37 +103,9 @@ $$\text{AOV} = \frac{\text{Net Product Revenue}}{\text{Number of Distinct Purcha
 
 ---
 
-## Repository Structure
-
-```
-online-retail-analytics/
-│
-├── data/
-│   └── README.md               # Dataset source and download instructions
-│
-├── notebooks/
-│   └── online_retail_eda.ipynb # Python cleaning and EDA notebook
-│
-├── dashboard/
-│   └── dashboard_screenshot.png # Power BI dashboard export
-│
-└── README.md
-```
-
----
-
-## How to Run
-
-1. Download the dataset from the [UCI repository](https://archive.ics.uci.edu/dataset/352/online+retail) and place the `.xlsx` file in the `/data` folder
-2. Open `notebooks/online_retail_eda.ipynb` in Jupyter Notebook or JupyterLab
-3. Run all cells sequentially
-4. The Power BI dashboard (`.pbix`) can be opened in [Power BI Desktop](https://powerbi.microsoft.com/desktop/) (free)
-
----
-
 ## Author
 
-**[Your Name]**  
+**Odusanya Oluwatobi**  
 Aspiring Data Analyst  
 [LinkedIn Profile URL](https://www.linkedin.com/in/oluwatobi-odusanya-6b339834a/) | [GitHub Profile URL](https://github.com/Oluwatobi-Analyst)
 
@@ -135,4 +113,7 @@ Aspiring Data Analyst
 
 ## Acknowledgements
 
-Dataset: Chen, D. (2015). Online Retail [Dataset]. UCI Machine Learning Repository. https://doi.org/10.24432/C5BW33
+Dataset sourced from Kaggle as part of an internship programme with 
+**AnalystLab Africa**.
+Original dataset: Vijay UV (2019). *Online Retail* [Dataset]. Kaggle.
+https://www.kaggle.com/datasets/vijayuv/onlineretail/data
