@@ -80,7 +80,7 @@ The raw dataset required significant cleaning before analysis:
 
 ## Dashboard Preview
 
-Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
+<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
 
 ---
 
