@@ -80,12 +80,12 @@ The raw dataset required significant cleaning before analysis:
 
 ## Dashboard Preview
 
-![Online Retail Sales & Customer Value Analytics Dashboard]<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
+Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height="799" alt="Dashboard" src="https://github.com/user-attachments/assets/ea6ff96c-4796-4f41-8bf4-fc2fbd000312" />
 
 ---
 
 ## Reports
-[View Full Insight Report](report/Online_Retail_Insight_Report.docx)
+[View Full Insight Report](https://github.com/userattachments/files/29382966/Online.Retail.Insight.Report.pdf)
 
 ---
 
