@@ -94,7 +94,7 @@ Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height
 | 5 | Paper Craft Little Birdie ranked 2nd by revenue but generated effectively £0 net — single bulk order fully returned |
 
 #### 📊 Supporting Analysis: Total Unique Customers per Product
-![Top Purchased Products by Customer]<img width="765" height="327" alt="Top Purchased Products" src="https://github.com/user-attachments/assets/e1bd8020-2751-40cf-83e1-b853442ad86a" />
+Top Purchased Products by Customer<img width="765" height="327" alt="Top Purchased Products" src="https://github.com/user-attachments/assets/e1bd8020-2751-40cf-83e1-b853442ad86a" />
 
 > Full analysis available in the [Insight Report](https://drive.google.com/file/d/1nnNDjVHmTSMBS2glUFaNW1-498tnHrH6/view?usp=drive_link)
 
