@@ -93,7 +93,7 @@ Online Retail Sales & Customer Value Analytics Dashboard<img width="1422" height
 | 4 | Top 2 customers contribute 5.53% of net revenue — dangerous concentration risk |
 | 5 | Paper Craft Little Birdie ranked 2nd by revenue but generated effectively £0 net — single bulk order fully returned |
 
-#### 📊 Supporting Analysis: Total Unique Customers per Product
+####  Supporting Analysis: Total Unique Customers per Product
 Top Purchased Products by Customer<img width="765" height="327" alt="Top Purchased Products" src="https://github.com/user-attachments/assets/e1bd8020-2751-40cf-83e1-b853442ad86a" />
 
 > Full analysis available in the [Insight Report](https://drive.google.com/file/d/1nnNDjVHmTSMBS2glUFaNW1-498tnHrH6/view?usp=drive_link)
